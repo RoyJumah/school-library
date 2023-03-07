@@ -1,8 +1,8 @@
-
+![](https://img.shields.io/badge/Microverse-blueviolet)
 <a name="readme-top"></a>
 
 <div align="center">
-  <h2><b>school-library</b></h2>
+  <h2><b>School-Library</b></h2>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -10,7 +10,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Enumerable ](#-Enumerable-)
+- [📖 school-library ](#-Enumerable-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
