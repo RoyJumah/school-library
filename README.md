@@ -1,10 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 <a name="readme-top"></a>
 
-<div align="center">
-  <h2><b>School-Library</b></h2>
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
