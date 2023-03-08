@@ -147,8 +147,4 @@ I would like to thank `Microverse` for providing me the resources that enabled u
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<<<<<<< HEAD
 
-=======
-
-> > > > > > > f932c147c7d860d28356257214e54d54b6d7126f
