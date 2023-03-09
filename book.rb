@@ -8,12 +8,9 @@ class Book
     @title = title
     @author = author
     @rentals = []
-
   end
 
-def add_rentals(rental)
-
-  @rentals.push(rental)
-end
-
+  def add_rentals(rental)
+    @rentals.push(rental)
+  end
 end
