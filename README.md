@@ -1,4 +1,4 @@
-c![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Microverse-blueviolet)
 <a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
@@ -139,3 +139,4 @@ I would like to thank `Microverse` for providing me the resources that enabled u
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
