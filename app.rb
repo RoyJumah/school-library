@@ -46,7 +46,6 @@ class App
     end
   end
 
-
   def create_book(title, author, id)
     book = Book.new(title, author)
     book.id = id
