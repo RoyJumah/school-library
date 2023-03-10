@@ -1,86 +1,76 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 <a name="readme-top"></a>
 
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 school-library ](#-Enumerable-)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features](#future-features)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [🔭 Future Features](#future-features)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 School library <a name="about-project"></a>
+# 📖 [OOP SCHOOL LIBRARY] <a name="about-project"></a>
 
-- A tool to manage OOP University's library collection by adding new students or teachers, adding new books, and tracking who borrowed them.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+**This app is a tool to record what books are in the library and who borrows them. The app allows the user to:**
+  <ul>
+    <li>Add new students or teachers </li>
+    <li>Add new books </li>
+    <li>Save records of who borrowed a given book and when.</li>   
+  </ul>
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
+<details>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://www.ruby-lang.org/">Ruby</a></li>
+    <li><a href="https://reactjs.org/">Ruby</a></li>
   </ul>
+</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **Add new students/teachers.**
-- **Add new books.**
-- **Track borrowing history.**
-
+- **Add new students or teachers**
+- **Add new books**
+- **Add new books**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Getting Started
 
-<!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
+**Please follow the steps below to setup this project in your local computer**
 
 ### Prerequisites
+A basic understanding of Ruby and Git
+### Usage
+1. Install Ruby
+2. Clone this repo `git clone https://github.com/Kashif-Saleem-Ghuman/school-library.git`
 
-In order to run this project you need:
+<!-- FUTURE FEATURES -->
 
-- To install ruby in your PC. You can read [this](https://rubyinstaller.org/downloads/) documentation on how to do so
-- Know how to navigate directories or folders at the CLI.
-- Know how to get the URL(https/ssh) of a repository on GitHub.
-- You should have a code editor installed, preferably VSCode.
+## 🔭 Future Features <a name="future-features"></a>
 
-### Setup
-
-In desired folder or directory in the CLI, run the command:
-
-```JavaScipt
-cd clone https://github.com/RoyJumah/school-library.git
-```
-
-Navigate into the cloned folder or repository by running the command:
-
-```JavaScript
- cd <folder/name of the repository>
-```
-
-If VsCode is your default code editor, run:
-
-```JavaScript
-  code .
-```
-
-You are all set up!
+- [ ] **Add delete books feature**
+- [ ] **Add delete students feature**
+- [ ] **Add delete teachers feature**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,31 +78,22 @@ You are all set up!
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Roy Jumah**
+👤 **Kashif**
 
-- GitHub: [@RoyJumah](https://github.com/RoyJumah)
-- Twitter: [@\_royissues](https://twitter.com/_royissues)
-- LinkedIn: [Roy Jumah](https://www.linkedin.com/in/roy-jumah/)
+- GitHub: [Kashif](https://github.com/Kashif-Saleem-Ghuman)
+- Twitter: [Kashif](https://twitter.com/Kashif14Saleem)
+- LinkedIn: [Kashif](https://www.linkedin.com/in/kashifsaleemghuman/)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] Add new students or teachers.
-- [ ] Add new books.
-- [ ] Save records of who borrowed a given book and when.
-- [ ] And all of this will be built in a beautiful and well-organized way!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/RoyJumah/school-library.git).
+Feel free to check the [issues page](https://github.com/Kashif-Saleem-Ghuman/school-library/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,7 +101,7 @@ Feel free to check the [issues page](https://github.com/RoyJumah/school-library.
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project you can give it a star
+If you like this project please give a⭐️ and share with your friends.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,7 +109,8 @@ If you like this project you can give it a star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank `Microverse` for providing me the resources that enabled us to finish this challenge!
+- Thanks to the Microverse team for the great curriculum.
+- Hat tip to anyone whose code was used
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,7 +118,7 @@ I would like to thank `Microverse` for providing me the resources that enabled u
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/Kashif-Saleem-Ghuman/school-library/blob/dev/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
