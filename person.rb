@@ -5,7 +5,7 @@ class Person < Nameable
   attr_accessor :name, :age
   attr_reader :id, :rentals
 
-  @@people = []
+  @people = []
 
   def initialize(age, name: 'Unknown', parent_permission: true)
     super()
@@ -14,7 +14,7 @@ class Person < Nameable
     @age = age
     @parent_permission = parent_permission
     @rentals = []
-    @@people << self
+    self.class.all << self
   end
 
   def can_use_services?
@@ -26,13 +26,12 @@ class Person < Nameable
   end
 
   def self.all
-    @@people
+    @people
   end
 
   def self.find(id)
-    @@people.find { |person| person.id == id }
+    @people.find { |person| person.id == id }
   end
-
 
   def of_age?
     @age >= 18
@@ -46,33 +45,31 @@ end
 class Student < Person
   attr_accessor :classroom
 
-  @@students = []
+  @students = []
 
   def initialize(age, classroom, name: 'Unknown', parent_permission: true)
     super(age, name: name, parent_permission: parent_permission)
     @classroom = classroom
-    @@students << self
+    self.class.all << self
   end
 
   def self.all
-    @@students
+    @students
   end
 end
 
 class Teacher < Person
   attr_accessor :specialization
 
-  @@teachers = []
+  @teachers = []
 
   def initialize(age, specialization, name: 'Unknown', parent_permission: true)
     super(age, name: name, parent_permission: parent_permission)
     @specialization = specialization
-    @@teachers << self
+    self.class.all << self
   end
 
   def self.all
-    @@teachers
+    @teachers
   end
-
-
 end

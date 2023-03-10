@@ -1,17 +1,17 @@
 require_relative 'rental'
 
 class Book
-  attr_accessor :title, :author
-  attr_reader :id, :rentals
+  attr_accessor :title, :author, :id
+  attr_reader :rentals
 
-  @@all_books = []
+  @all_books = []
 
   def initialize(title, author)
     @id = rand(1..1000)
     @title = title
     @author = author
     @rentals = []
-    @@all_books << self
+    self.class.all << self
   end
 
   def add_rental(rental)
@@ -19,15 +19,10 @@ class Book
   end
 
   def self.all
-    @@all_books
+    @all_books
   end
 
   def self.find(id)
-    @@all_books.find { |book| book.id == id }
-  end
-
-  def id=(new_id)
-    @id = new_id
+    @all_books.find { |book| book.id == id }
   end
 end
-

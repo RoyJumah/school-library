@@ -4,16 +4,21 @@ require_relative 'person'
 class Rental
   attr_accessor :date, :book, :person
 
-  @@rentals = []
+  @rentals = []
 
   def initialize(date, book, person)
     @date = date
     @book = book
     @person = person
-    @@rentals << self
+    self.class.rentals << self
   end
 
   def self.all
-    @@rentals
+    rentals
+  end
+
+  # Define attr_accessor for rentals on the metaclass
+  class << self
+    attr_accessor :rentals
   end
 end
