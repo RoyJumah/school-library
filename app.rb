@@ -25,7 +25,6 @@ class App
     end
   end
 
-  
   def list_of_options
     puts 'Please choose an option by entering a number:'
     puts '1 - List all books'
@@ -55,7 +54,6 @@ class App
       puts 'Invalid option'
     end
   end
-
 
   def list_all_books
     puts 'Please add a book to the library' if @books.empty?
