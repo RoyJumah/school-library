@@ -94,6 +94,12 @@ You are all set up!
 - Twitter: [@\_royissues](https://twitter.com/_royissues)
 - LinkedIn: [Roy Jumah](https://www.linkedin.com/in/roy-jumah/)
 
+👤 **Donald Akite**
+
+- GitHub: [@donald_akite](https://github.com/quavo19)
+- Twitter: [@twitter](https://twitter.com/)
+- LinkedIn: [linkedin](https://www.linkedin.com/in/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
