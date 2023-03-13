@@ -5,5 +5,4 @@ def main
   app.start_console
 end
 
-
 main
