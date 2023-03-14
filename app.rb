@@ -4,6 +4,7 @@ require_relative 'teacher'
 require_relative 'book'
 require_relative 'rental'
 require_relative 'classroom'
+require_relative 'data_manager'
 
 class App
   def initialize
@@ -13,11 +14,17 @@ class App
   end
 
   def start_console
-    puts 'welcome to school Library App!'
+    puts 'Loading data...'
+    @books, @people, @rentals = DataManager.load_data
+    puts 'Data loaded successfully.'
+
+    puts 'Welcome to the school Library App!'
     until list_of_options
       input = gets.chomp
       if input == '7'
-        puts 'Thank You for using our school Library!'
+        puts 'Saving data...'
+        DataManager.save_data(@books, @people, @rentals)
+        puts 'Thank you for using our school Library!'
         break
       end
 
