@@ -31,5 +31,4 @@ class Book
     end
     book
   end
-  
 end

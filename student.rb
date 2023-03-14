@@ -20,7 +20,7 @@ class Student < Person
     age = hash['age']
     name = hash['name']
     parent_permission = hash['parent_permission']
-    student = self.new(classroom: classroom, age: age, name: name, parent_permission: parent_permission)
+    student = new(classroom: classroom, age: age, name: name, parent_permission: parent_permission)
     student.instance_variable_set(:@id, hash['id'])
     student.instance_variable_set(:@rentals, hash['rentals'].map { |r| Rental.from_hash(r) })
     student
