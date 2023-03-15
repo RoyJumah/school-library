@@ -1,0 +1,17 @@
+[
+  {
+    "title": "book1",
+    "author": "auth",
+    "rentals": [
+      {
+        "date": "12-12-1212",
+        "book_title": "book1",
+        "person_id": 315
+      }
+    ]
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F.Scott Fitsgerald"
+  }
+]
