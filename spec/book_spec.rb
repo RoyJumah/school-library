@@ -2,7 +2,7 @@ require_relative './spec_helper'
 
 describe Book do
   before(:each) do
-    @book = Book.new('The River and The Source', 'Mary Ogolla')
+    @book = Book.new('Rich Dad Poor Dad', 'Robert Kiyosaki')
   end
 
   it 'class initializes' do
@@ -10,7 +10,7 @@ describe Book do
   end
 
   it 'attributes are accessible' do
-    expect(@book.title).to eq('The River and The Source')
-    expect(@book.author).to eq('Mary Ogolla')
+    expect(@book.title).to eq('Rich Dad Poor Dad')
+    expect(@book.author).to eq('Robert Kiyosaki')
   end
 end
